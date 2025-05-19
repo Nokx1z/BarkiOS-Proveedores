@@ -69,19 +69,19 @@ switch ($action) {
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/app/views/admin/products-admin.php">
+                    <a class="nav-link" href="#Profe_No_Hago_Nada">
                         <i class="fas fa-tshirt"></i>
                         Productos
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/app/views/admin/supplier-admin.php">
+                    <a class="nav-link active" href="/BarkiOS-Proveedores/app/views/admin/supplier-admin.php">
                         <i class="fas fa-shopping-cart"></i>
                         Proveedores
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/app/views/admin/clients-admin.php">
+                    <a class="nav-link" href="#Profe_No_Hago_Nada">
                         <i class="fas fa-users"></i>
                         Clientes
                     </a>
