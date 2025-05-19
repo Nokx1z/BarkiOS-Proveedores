@@ -52,11 +52,7 @@ docker-compose --version
    ```bash
    git clone https://github.com/tu-usuario/BarkiOS.git
    ```  
-2. Configurar entorno:  
-   ```powershell
-   cp .env.example .env
-   ```  
-3. Iniciar contenedores:  
+2. Iniciar contenedores:  
    ```powershell
    docker-compose up -d --build
    ```  
@@ -101,7 +97,7 @@ phpMyAdmin: http://localhost:8000
 
 **Accesos XAMPP:**  
 ```plaintext
-URL: http://localhost/BarkiOS/proveedores  
+URL: http://localhost/BarkiOS-Proveedores/app/views/admin/supplier-admin.php
 phpMyAdmin: http://localhost/phpmyadmin  
 ```  
 
