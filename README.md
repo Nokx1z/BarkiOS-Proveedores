@@ -50,7 +50,7 @@ docker-compose --version
 ### Pasos  
 1. Clonar repositorio (rama main):  
    ```bash
-   git clone https://github.com/tu-usuario/BarkiOS.git
+   git clone https://github.com/tu-usuario/BarkiOS-Proveedores.git
    ```  
 2. Iniciar contenedores:  
    ```powershell
