@@ -97,7 +97,7 @@ switch ($action) {
                 <h1 class="display-6 fw-bold text-dark">Proveedores</h1>
             </div>
             <button class="btn btn-primary rounded-pill px-4 me-3" data-bs-toggle="modal" data-bs-target="#addProductModal">
-                <i class="fas fa-plus me-1"></i> Agregar contacto
+                <i class="fas fa-plus me-1"></i> Agregar proveedor
             </button>
             
             <!-- Mensajes de éxito/error -->
