@@ -101,7 +101,7 @@ phpMyAdmin: http://localhost:8000
 
 **Accesos XAMPP:**  
 ```plaintext
-URL: http://localhost/BarkiOS/proveedores  
+URL: http://localhost/BarkiOS-Proveedores/app/views/admin/supplier-admin.php
 phpMyAdmin: http://localhost/phpmyadmin  
 ```  
 
