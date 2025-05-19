@@ -52,11 +52,7 @@ docker-compose --version
    ```bash
    git clone https://github.com/tu-usuario/BarkiOS.git
    ```  
-2. Configurar entorno:  
-   ```powershell
-   cp .env.example .env
-   ```  
-3. Iniciar contenedores:  
+2. Iniciar contenedores:  
    ```powershell
    docker-compose up -d --build
    ```  
