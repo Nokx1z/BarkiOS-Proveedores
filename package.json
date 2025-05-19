@@ -1,0 +1,25 @@
+{
+  "name": "barkios-proveedores",
+  "version": "1.0.0",
+  "description": "![Docker](https://img.shields.io/badge/Docker-✓-blue?logo=docker)  \r ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?logo=php)  \r ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nokx1z/BarkiOS-Proveedores.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nokx1z/BarkiOS-Proveedores/issues"
+  },
+  "homepage": "https://github.com/Nokx1z/BarkiOS-Proveedores#readme",
+  "devDependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.6",
+    "sass": "^1.89.0"
+  }
+}

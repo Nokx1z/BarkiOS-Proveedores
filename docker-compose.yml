@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  barkios-proveedores:  # Cambiado de 'app' a 'barkios-app'
+    build: .
+    ports:
+      - "9080:80"  # Cambiado de 8080 a 9080
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - barkios-db  # Cambiado de 'db' a 'barkios-db'
+    environment:
+      - DB_HOST=barkios-db
+      - DB_DATABASE=barkios_db  # Cambiado de barki_db a barkios_db
+      - DB_USERNAME=barkios_admin  # Cambiado de root a barkios_admin
+      - DB_PASSWORD=barkios_pass123  # Nueva contraseña
+
+  barkios-db:  # Cambiado de 'db' a 'barkios-db'
+    image: mysql:8.0
+    ports:
+      - "4306:3306"  # Cambiado de 3306 a 4306
+    environment:
+      MYSQL_ROOT_PASSWORD: barkios_root123  # Nueva contraseña root
+      MYSQL_DATABASE: barkios_db  # Cambiado de barki_db a barkios_db
+      MYSQL_USER: barkios_admin  # Cambiado de barki_user a barkios_admin
+      MYSQL_PASSWORD: barkios_pass123  # Nueva contraseña
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+
+  barkios-admin:  # Cambiado de 'phpmyadmin' a 'barkios-admin'
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "9000:80"  # Cambiado de 8000 a 9000
+    environment:
+      PMA_HOST: barkios-db  # Cambiado de 'db' a 'barkios-db'
+      PMA_USER: barkios_admin  # Cambiado de root a barkios_admin
+      PMA_PASSWORD: barkios_pass123  # Nueva contraseña
+    depends_on:
+      barkios-db:  # Cambiado de 'db' a 'barkios-db'
+        condition: service_healthy
+
+volumes:
+  mysql_data:

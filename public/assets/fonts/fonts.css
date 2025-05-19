@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Taylor Royal Classic";
+  src: url("taylor-royal-classic.woff2") format("woff2"), url("taylor-royal-classic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
