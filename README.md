@@ -26,9 +26,7 @@
 | Módulo | Descripción |  
 |--------|------------|  
 | **Registro** | Alta de proveedores con validación de RIF/DNI |  
-| **Gestión** | Edición de datos de contacto y productos |  
-| **Reportes** | Generación de listados y transacciones |  
-| **Integración** | API REST para conexión con otros sistemas |  
+| **Gestión** | Agregar y eliminar
 
 ## 🛠️ Tecnologías  
 ```plaintext
@@ -118,3 +116,4 @@ MIT License - Ver [LICENSE](LICENSE)
 - Los datos de prueba se incluyen en `database/seeders`  
 
 *Sistema desarrollado por [Tu Nombre] para [Nombre de la Institución]*
+El Readme en parte fue una plantilla 
