@@ -113,4 +113,4 @@ GET    /api/orders        - Historial de pedidos
 MIT License - Ver [LICENSE](LICENSE) para detalles.  
 
 ---  
-*Documentación generada para el equipo de desarrollo BarkiOS*
+*Documentación generada para el equipo de desarrollo BarkiOS (Mayor parte de el readme fue una plantilla)*
