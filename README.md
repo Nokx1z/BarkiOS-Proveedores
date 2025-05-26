@@ -110,10 +110,7 @@ GET    /api/proveedores/{id} - Detalles de proveedor
 MIT License - Ver [LICENSE](LICENSE)  
 
 ---  
-**Notas:**  
-- Para desarrollo local usar rama `xampp`  
-- Para entornos productivos usar rama `main` con Docker  
-- Los datos de prueba se incluyen en `database/seeders`  
+*Documentación generada para el equipo de desarrollo BarkiOS (Mayor parte de el readme fue una plantilla)*
 
 *Sistema desarrollado por [Tu Nombre] para [Nombre de la Institución]*
 El Readme en parte fue una plantilla 
